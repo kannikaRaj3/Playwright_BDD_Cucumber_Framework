@@ -1,0 +1,320 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Testing",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Demo",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Launch url",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 371999,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'goto')\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\loginSteps.ts:24:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Validate page title",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Enter email",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Enter password",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Click on sign in button",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Validate sign in",
+            "match": {
+              "location": "src\\StepDefinitions\\loginSteps.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page-features",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Page features",
+    "tags": [],
+    "uri": "src\\features\\A.loginPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "contacts-page-features;validate-contact",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validate contact",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Navigate to Contacts page",
+            "match": {
+              "location": "src\\StepDefinitions\\contactsSteps.ts:34"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 420600,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'click')\n    at ElorusHomePage.clickContacts (D:\\Repo\\demo_playwright\\Playwright_BDD\\pages\\pageClasses\\HomePage.ts:42:21)\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\contactsSteps.ts:36:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "contacts-page-features",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Contacts Page features",
+    "tags": [],
+    "uri": "src\\features\\B.contactsPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-contacts;add-a-new-contact",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add a new contact",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "Click on add button from contacts page",
+            "match": {
+              "location": "src\\StepDefinitions\\addContactsSteps.ts:34"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 284599,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'click')\n    at ContactsPage.clickAdd (D:\\Repo\\demo_playwright\\Playwright_BDD\\pages\\pageClasses\\ContactsPage.ts:16:21)\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\addContactsSteps.ts:36:24)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Enter First name",
+            "match": {
+              "location": "src\\StepDefinitions\\addContactsSteps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Enter Last name",
+            "match": {
+              "location": "src\\StepDefinitions\\addContactsSteps.ts:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Enter company",
+            "match": {
+              "location": "src\\StepDefinitions\\addContactsSteps.ts:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enter Profession",
+            "match": {
+              "location": "src\\StepDefinitions\\addContactsSteps.ts:55"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on save button",
+            "match": {
+              "location": "src\\StepDefinitions\\addContactsSteps.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-contacts",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Contacts",
+    "tags": [],
+    "uri": "src\\features\\C.addContacts.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "logout;log-out-from-elorus",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Log out from Elorus",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Click on user menu",
+            "match": {
+              "location": "src\\StepDefinitions\\logoutSteps.ts:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 336400,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'click')\n    at ElorusHomePage.clickUserMenu (D:\\Repo\\demo_playwright\\Playwright_BDD\\pages\\pageClasses\\HomePage.ts:52:21)\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\logoutSteps.ts:25:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Click on logout",
+            "match": {
+              "location": "src\\StepDefinitions\\logoutSteps.ts:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "logout",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Logout",
+    "tags": [],
+    "uri": "src\\features\\D.logout.feature"
+  }
+]
