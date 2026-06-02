@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "A Playwright BDD framework using Cucumber and TypeScript",
   "scripts": {
-        "test:chromium": "cucumber-js src/test/features/*.feature --require-module ts-node/register --require src/test/StepDefinitions/*.ts --require src/hooks/*.ts",
+    "test:chromium": "cucumber-js src/features/*.feature --require-module ts-node/register --require src/StepDefinitions/*.ts --require src/hooks/*.ts",
     "playwright": "cucumber-js --require-module ts-node/register --format json:cucumber-report.json",
     "generate-report": "ts-node generate-report.ts",
-    "test:completeSuite:chromium": "npm run playwright -- src/test/features/*.feature",
+    "test:completeSuite:chromium": "npm run playwright -- src/features/*.feature",
     "test:completeSuite:firefox": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=Firefox npm run playwright -- src/features/*.feature ",
     "test:completeSuite:webkit": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=Webkit npm run playwright -- src/features/*.feature",
     "test:completeSuite:msedge": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=MSedge npm run playwright -- src/features/*.feature",
     "test:completeSuite:runAllBrowsersSimultaneously": "concurrently \"npm run test:completeSuite:chromium\" \"npm run test:completeSuite:firefox\" \"npm run test:completeSuite:webkit\" \"npm run test:completeSuite:msedge\"",
-    "test": "cucumber-js test",
-    "test1": "cucumber-js test1"
+    "test": "cucumber-js src/features/*.feature",
+    "test1": "cucumber-js src/features/*.feature"
   },
   "dependencies": {
     "dotenv": "^17.4.2"

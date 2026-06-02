@@ -10,6 +10,14 @@
         "name": "Verify Email field validation",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 307399
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Then ",
             "line": 4,
@@ -19,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1225599
+              "duration": 729600
             }
           },
           {
@@ -32,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 402900
+              "duration": 458200
             }
           },
           {
@@ -44,9 +52,8 @@
               "location": "src\\StepDefinitions\\loginSteps.ts:23"
             },
             "result": {
-              "status": "failed",
-              "duration": 371999,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'goto')\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\loginSteps.ts:24:28)"
+              "status": "passed",
+              "duration": 3222071399
             }
           },
           {
@@ -58,8 +65,8 @@
               "location": "src\\StepDefinitions\\loginSteps.ts:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 18154999
             }
           },
           {
@@ -71,8 +78,8 @@
               "location": "src\\StepDefinitions\\loginSteps.ts:31"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 42272999
             }
           },
           {
@@ -84,8 +91,8 @@
               "location": "src\\StepDefinitions\\loginSteps.ts:36"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 26244200
             }
           },
           {
@@ -97,8 +104,8 @@
               "location": "src\\StepDefinitions\\loginSteps.ts:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1793844999
             }
           },
           {
@@ -110,8 +117,8 @@
               "location": "src\\StepDefinitions\\loginSteps.ts:47"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3267499
             }
           }
         ],
@@ -142,6 +149,14 @@
         "name": "validate contact",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91900
+            }
+          },
+          {
             "arguments": [],
             "keyword": "When ",
             "line": 4,
@@ -150,9 +165,8 @@
               "location": "src\\StepDefinitions\\contactsSteps.ts:34"
             },
             "result": {
-              "status": "failed",
-              "duration": 420600,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'click')\n    at ElorusHomePage.clickContacts (D:\\Repo\\demo_playwright\\Playwright_BDD\\pages\\pageClasses\\HomePage.ts:42:21)\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\contactsSteps.ts:36:20)"
+              "status": "passed",
+              "duration": 2057255600
             }
           }
         ],
@@ -178,6 +192,14 @@
         "name": "Add a new contact",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162900
+            }
+          },
+          {
             "arguments": [],
             "keyword": "And ",
             "line": 4,
@@ -186,9 +208,8 @@
               "location": "src\\StepDefinitions\\addContactsSteps.ts:34"
             },
             "result": {
-              "status": "failed",
-              "duration": 284599,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'click')\n    at ContactsPage.clickAdd (D:\\Repo\\demo_playwright\\Playwright_BDD\\pages\\pageClasses\\ContactsPage.ts:16:21)\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\addContactsSteps.ts:36:24)"
+              "status": "passed",
+              "duration": 1993215899
             }
           },
           {
@@ -200,8 +221,8 @@
               "location": "src\\StepDefinitions\\addContactsSteps.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 364673899
             }
           },
           {
@@ -213,8 +234,8 @@
               "location": "src\\StepDefinitions\\addContactsSteps.ts:44"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 20745399
             }
           },
           {
@@ -226,8 +247,8 @@
               "location": "src\\StepDefinitions\\addContactsSteps.ts:50"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 18797400
             }
           },
           {
@@ -239,8 +260,8 @@
               "location": "src\\StepDefinitions\\addContactsSteps.ts:55"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 18328799
             }
           },
           {
@@ -252,8 +273,8 @@
               "location": "src\\StepDefinitions\\addContactsSteps.ts:61"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 53543200
             }
           }
         ],
@@ -279,6 +300,14 @@
         "name": "Log out from Elorus",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177099
+            }
+          },
+          {
             "arguments": [],
             "keyword": "When ",
             "line": 4,
@@ -287,9 +316,8 @@
               "location": "src\\StepDefinitions\\logoutSteps.ts:23"
             },
             "result": {
-              "status": "failed",
-              "duration": 336400,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'click')\n    at ElorusHomePage.clickUserMenu (D:\\Repo\\demo_playwright\\Playwright_BDD\\pages\\pageClasses\\HomePage.ts:52:21)\n    at World.<anonymous> (D:\\Repo\\demo_playwright\\Playwright_BDD\\src\\StepDefinitions\\logoutSteps.ts:25:18)"
+              "status": "passed",
+              "duration": 52280499
             }
           },
           {
@@ -301,8 +329,8 @@
               "location": "src\\StepDefinitions\\logoutSteps.ts:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 44612699
             }
           }
         ],
