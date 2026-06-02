@@ -22,7 +22,7 @@
   "devDependencies": {
     "@cucumber/cucumber": "^10.6.0",
     "@playwright/test": "^1.45.0",
-    "@types/node": "^20.0.0",
+    "@types/node": "^25.6.0",
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "ts-node": "^10.9.2",
